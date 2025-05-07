@@ -36,22 +36,6 @@ SearchBox.addEventListener("keydown",(e)=> {
     }
 });
 
-// function AddTask() {
-//     if (SearchBox.value === '') {
-//         alert("You Must Write something");
-//     }
-//     else {
-//         let li = document.createElement("li");
-//         li.innerHTML = SearchBox.value;
-//         Container.appendChild(li);
-//         let span = document.createElement("span");
-//         span.innerHTML = "\u00d7";
-//         li.appendChild(span)
-//     }
-//     SearchBox.value = "";
-//     saveData();
-// }
-
 
 
 Container.addEventListener("click", function (e) {
